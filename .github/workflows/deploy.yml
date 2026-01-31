@@ -15,7 +15,9 @@ jobs:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
           script: |
+            export PATH=$PATH:/usr/bin:/usr/local/bin
             cd ~/jepjat-mini-app
             git pull origin main
             npm install
