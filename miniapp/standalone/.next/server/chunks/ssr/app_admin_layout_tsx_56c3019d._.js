@@ -1,0 +1,3 @@
+module.exports=[26435,a=>{"use strict";var b=a.i(7997),c=a.i(5246);async function d(){let a=(await (0,c.cookies)()).get("admin_session");if(!a?.value)return null;try{let b=JSON.parse(Buffer.from(a.value,"base64").toString());if(b.exp<Date.now())return null;return b}catch{return null}}async function e({children:a}){return await d(),(0,b.jsx)(b.Fragment,{children:a})}a.s(["default",()=>e],26435)}];
+
+//# sourceMappingURL=app_admin_layout_tsx_56c3019d._.js.map

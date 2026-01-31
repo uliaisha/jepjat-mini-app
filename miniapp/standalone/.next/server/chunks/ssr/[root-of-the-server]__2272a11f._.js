@@ -1,0 +1,9 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},70864,a=>{a.n(a.i(33290))},43619,a=>{a.n(a.i(79962))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},67971,a=>{a.n(a.i(26435))},5975,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call AdminDashboard() from the server but AdminDashboard is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/admin/admin-dashboard.tsx <module evaluation>","AdminDashboard");a.s(["AdminDashboard",0,b])},81539,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call AdminDashboard() from the server but AdminDashboard is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/admin/admin-dashboard.tsx","AdminDashboard");a.s(["AdminDashboard",0,b])},73370,a=>{"use strict";a.i(5975);var b=a.i(81539);a.n(b)},86607,a=>{"use strict";var b=a.i(7997),c=a.i(98310),d=a.i(73370);async function e(){let a=await (0,c.createClient)(),{data:e}=await a.from("orders").select(`
+      *,
+      order_items (
+        *,
+        menu_item:menu_items (*)
+      )
+    `).order("created_at",{ascending:!1}).limit(50);return(0,b.jsx)(d.AdminDashboard,{orders:e||[],adminUsername:"admin"})}a.s(["default",()=>e])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__2272a11f._.js.map

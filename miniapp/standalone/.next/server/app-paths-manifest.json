@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/api/admin/login/route": "app/api/admin/login/route.js",
+  "/api/admin/logout/route": "app/api/admin/logout/route.js",
+  "/api/admin/orders/[id]/route": "app/api/admin/orders/[id]/route.js",
+  "/api/admin/orders/route": "app/api/admin/orders/route.js",
+  "/api/orders/route": "app/api/orders/route.js",
+  "/cart/page": "app/cart/page.js",
+  "/order/[id]/page": "app/order/[id]/page.js",
+  "/page": "app/page.js"
+}
